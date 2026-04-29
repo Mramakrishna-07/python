@@ -1,0 +1,11 @@
+from datetime import date
+a=date(2005,5,14)
+b=date(2026,4,29)
+print("No days lived:",(b-a).total_seconds()/3600)
+
+
+import calendar
+a=int(input("enter any year:"))
+b=int(input("enter  any  month:"))
+res=calender.month(a,b)
+print(res)
