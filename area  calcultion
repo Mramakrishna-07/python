@@ -1,0 +1,21 @@
+def sq():
+    print("area:",s*s)
+def  rect(a,b):
+    print("area:", a*b)
+def cir(r):
+    print("Area:",r*r*3.14)
+while (True):
+    print("1.square")
+    print("2.rectangle")
+    print("3.circle")
+    print("Exit")
+    ch=int(input("enter urs choice:"))
+    if ch==1:
+        sq()
+    elif ch==2:
+        rect(20,10)
+    elif ch==3:
+        cir(20)
+    else:
+        break
+        
